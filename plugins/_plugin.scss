@@ -1,0 +1,11 @@
+@-webkit-keyframes hover {
+  0%, 50%, 100% {
+    transform: translateY(-0.25em) translateZ(0);
+  }
+  25% {
+    transform: translateY(0.25em) rotate(1deg);
+  }
+  75% {
+    transform: translateY(0.25em) rotate(-1deg);
+  }
+}
